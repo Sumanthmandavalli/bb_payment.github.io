@@ -1,0 +1,81 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+.A{
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    min-height: 100vh;
+    background: #fefefe;
+  }  
+  .A form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  .A form .row .col{
+    flex:1 1 250px;
+  }
+  .A form .row .col .title{
+    font-style:Times_New_Roman;
+    font-size: 20px;
+    content: center;
+    color:#373D20;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .A form .row .col .inputBox{
+    color:#373D20;
+    margin:15px 0;
+  }
+  
+  .A form .row .col .inputBox span{
+    margin-bottom: 10px;
+    color:#373D20;
+    display: block;
+  }
+  
+  .A form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #373D20;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .A form .row .col .inputBox input:focus{
+    border:1px solid #531e53;
+  }
+  
+  .A form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .A form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .A form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .A form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #373D20;;
+    color:#fefefe;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .A form .submit-btn:hover{
+    background: #373D20;;
+  }
